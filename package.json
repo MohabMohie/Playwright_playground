@@ -1,0 +1,19 @@
+{
+  "name": "playwrightplayground_ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.27.1",
+    "allure-playwright": "^2.0.0-beta.19"
+  },
+  "dependencies": {
+    "allure": "^0.0.0",
+    "monocart-reporter": "^1.0.7",
+    "playwright": "^1.27.1"
+  }
+}

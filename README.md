@@ -12,6 +12,7 @@ You need the following prerequisites installed on your device to be able to run 
 2. Visual Studio Code -> [Download VSCode](https://code.visualstudio.com/download)
 3. NodeJS -> [Download NodeJS](https://nodejs.org/en/download/)
 4. Playwright -> [Installing Playwright for VS Code](https://playwright.dev/docs/getting-started-vscode)
+5. allure-playwright -> [Installing allure-playwright reporter](https://www.npmjs.com/package/allure-playwright)
 
 *Note: Always make sure to download the latest stable version compatible with your OS and CPU architecture.
 
@@ -20,7 +21,7 @@ You need the following prerequisites installed on your device to be able to run 
 1. Clone the project using GitHub Dekstop.
 2. Ensure that you've installed the official Playwright VS Code plugin, and ran ```npm install``` in the project root directory.
 3. Open the project folder in VS Code by clicking ```File > Open Folder...```.
-3. Jump to the <a href="#C4">Test Execution and Reporting</a> section to execute your code. 
+4. Jump to the [Test Execution and Reporting](#reporting) section to execute your code. 
 
 ## Getting Started with a new Playwright project from scratch
 
@@ -112,7 +113,7 @@ await test.step('And search for "Microsoft Playwright"', async () => {
 });
 ```
 
-## <div id="reporting">Test Execution and Reporting</div>
+## <a name="reporting"></a>Test Execution and Reporting
 
 1. Follow this guide for [Running Tests](https://playwright.dev/docs/getting-started-vscode#running-tests).
 2. After Test Execution is completed, you will find all the execution reports under this directory ```reports/```.
